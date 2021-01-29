@@ -7,7 +7,7 @@
     "nodemon": "nodemon src/index",
     "webpack": "webpack --mode development",
     "dev": "webpack serve --mode development",
-    "start": "node index"
+    "start": "node src/index"
   },
   "keywords": [],
   "author": "",

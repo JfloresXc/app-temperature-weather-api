@@ -5,7 +5,6 @@ const app = express()
 //Settings
 app.set('port', process.env.PORT || 5555)
 
-
 //Static files
 app.use(express.static(path.join(__dirname, '../dist')))
 
