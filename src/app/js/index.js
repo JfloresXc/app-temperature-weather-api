@@ -10,6 +10,7 @@ const weather = new Wheater(city);
 
 async function fetchWeather() {
 	const data = await weather.getData();
+	console.log(data);
 	ui.printData(data);
 }
 
